@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1100px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        td:first-child, td:last-child {
+            width: 200px;
+        }
+        td:nth-child(2) {
+            width: 600px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            padding: 12px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container">
+    <h1>Architectural Information</h1>
+    <div class="imageContainer">
+        <img src="architecture.jpg" alt="Architecture Image">
+    </div>
+    <table>
+        <tr>
+            <td><img src="architecture1.jpg" alt="Architecture Image 1"></td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</td>
+            <td><img src="architecture2.jpg" alt="Architecture Image 2"></td>
+        </tr>
+        <tr>
+            <td><img src="architecture3.jpg" alt="Architecture Image 3"></td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</td>
+            <td><img src="architecture4.jpg" alt="Architecture Image 4"></td>
+        </tr>
+    </table>
+</div>
 
 </body>
-
 </html>
